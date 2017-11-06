@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+.last {
+  border-right: none !important;
+  margin-right: 0 !important;
+}
+.bm {
+  margin: 0 auto;
+}
+.ta {
+  text-align: center;
+}
+.of {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.btm {
+  display: table-cell;
+  vertical-align: middle;
+}
+.dn {
+  display: none;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.bx {
+  width: 1220px;
+}
+header ul {
+  width: 4050;
+  height: 660px;
+}
+header ul li {
+  float: left;
+  height: 660px;
+  width: 1349px;
+  padding: 80px 0 0;
+}
+header ul li.lb1 {
+  background-color: #F55D5D;
+}
+header ul li.lb2 {
+  background-color: #FFB119;
+}
+header ul li.lb3 {
+  background-color: #72BF50;
+}
+header ul li.lb3 .content {
+  cursor: pointer;
+}
+header ul li.lb3 .content a {
+  position: absolute;
+  top: 370px;
+  left: 120px;
+  width: 245px;
+  height: 60px;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  background-color: #008AE9;
+  border-radius: 30px;
+}
+header ul li .content {
+  cursor: pointer;
+}
+header ul li .content a {
+  position: absolute;
+  top: 370px;
+  left: 150px;
+  width: 340px;
+  height: 80px;
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  background-color: #E6920B;
+  border-radius: 40px;
+}
+header .dot {
+  position: absolute;
+  bottom: 20px;
+  left: 41%;
+}
+header .dot span {
+  display: inline-block;
+  width: 40px;
+  height: 12px;
+  border-radius: 6px;
+  margin: 0 10px;
+}
+header .dot span.current {
+  background-color: white;
+}
+header .dot span i {
+  float: right;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+header .arr span {
+  position: absolute;
+  display: inline-block;
+  width: 52px;
+  height: 120px;
+}
+header .arr span.larr {
+  top: 300px;
+  left: 135px;
+  background: url(../images/arrow.png) no-repeat -10px 0;
+}
+header .arr span.rarr {
+  top: 300px;
+  right: 135px;
+  background: url(../images/arrow.png) no-repeat -10px -120px;
+}
+header .nav {
+  top: 0px;
+  width: 1349px;
+  height: 80px;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+header .nav .content a {
+  vertical-align: middle;
+  display: inline-block;
+  height: 80px;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  line-height: 80px;
+  text-align: center;
+}
+header .nav .content a.logo {
+  width: 150px;
+  margin: 0 50px 0 0;
+}
+header .nav .content a.current {
+  background-color: #008AE9;
+}
+main {
+  background-color: #FAFAFA;
+  padding: 10px 0 0 ;
+}
+main ul li {
+  float: left;
+  width: 400px;
+  border: 1px solid #aaa;
+  text-align: center;
+  padding: 0 0 30px 0;
+  margin-right: 10px;
+}
+main ul li span {
+  display: inline-block;
+  font-size: 18px;
+  margin: 30px 0 20px;
+}
+main ul li div {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+main ul li div.dload1 {
+  background: #2A8FFA url(../images/adicon.png) no-repeat 30px 0;
+}
+main ul li div.dload2 {
+  background: #2A8FFA url(../images/adicon.png) no-repeat 30px -50px;
+}
+main ul li div.dload3 {
+  background: #2A8FFA url(../images/adicon.png) no-repeat 30px -93px;
+}
+footer {
+  background-color: #FAFAFA;
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  padding: 50px 0 0;
+}
+footer .url {
+  margin: 0 0 20px 0;
+}
+footer .url a {
+  color: #666;
+  padding: 0 15px;
+  border-right: 1px solid #ccc;
+}
+footer .img {
+  margin: 10px 0 0 0 ;
+}
+footer .img a {
+  margin: 0 10px;
+}
+footer .img a img {
+  vertical-align: middle;
+}

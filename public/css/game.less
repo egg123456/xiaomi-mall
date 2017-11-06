@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+.last{
+    border-right: none !important;
+    margin-right: 0 !important;
+}
+.bm{
+    margin: 0 auto;
+}
+.ta{
+    text-align: center;
+}
+.of{
+    overflow: hidden;
+}
+.fl{
+    float: left
+}
+.fr{
+    float: right;
+}
+.cb{
+    clear: both;
+}
+.btm{
+    display: table-cell;
+    vertical-align: middle;
+}
+.dn{
+    display: none;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+.pf{
+    position: fixed;
+}
+.bx{
+    width: 1280px;
+}
+/////
+header{
+    overflow: hidden;
+    margin-bottom: 80px;
+    .nav{
+        height: 36px;
+        background-color: #333333;
+        margin-bottom: 40px;
+        .contain{
+            width: 1280px;
+            a{
+                line-height: 36px;
+                font-size: 12px;
+                color: #666;
+                &.current{
+                    color: white;
+                }
+            }
+            span{
+                margin: 0 10px;
+            }
+        }
+    }
+    .top{
+       padding:0 30px;
+       .right{
+           height: 52px;
+           a{
+               color: #666;
+               font-size: 16px;
+               margin:0 12px;
+               line-height: 52px;
+           }
+            input{
+                height: 35px;
+                width: 210px;
+                border: 1px solid #ccc;
+            }
+            button{
+                position: relative;
+                top: 8px;
+                height: 36px;
+                width: 36px;
+                border: 1px solid #ccc;
+                background: url(../images/gamesearch.png) no-repeat -3px 0; 
+            }
+       } 
+    }
+}
+main{
+    .contain{
+        .content{
+            overflow: hidden;
+        }
+        .date{
+            width: 70px;
+            .month{
+                font-size: 30px;
+                text-align: center;
+            }
+            .dot{
+                width: 11px;
+                height: 11px;
+                margin: 10px auto;
+                background-color: #aaa;
+                border-radius: 5px;
+            }
+            .line{
+                width: 4px;
+                height: 490px;
+                background-color: #aaa;
+            }
+        }
+        .img{
+            padding: 5px 0 0 0px ;
+            img{
+                margin: 0 12px;
+            }
+        }
+    }
+}
+footer{
+    text-align: center;
+    p{
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 25px;
+    }
+    img{
+        margin: 0 0 120px 0;
+    }
+}

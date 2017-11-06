@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+.last {
+  border-right: none !important;
+  margin-right: 0 !important;
+}
+.bm {
+  margin: 0 auto;
+}
+.ta {
+  text-align: center;
+}
+.of {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.btm {
+  display: table-cell;
+  vertical-align: middle;
+}
+.dn {
+  display: none;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.bx {
+  width: 1280px;
+}
+header {
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+header .nav {
+  height: 36px;
+  background-color: #333333;
+  margin-bottom: 40px;
+}
+header .nav .contain {
+  width: 1280px;
+}
+header .nav .contain a {
+  line-height: 36px;
+  font-size: 12px;
+  color: #666;
+}
+header .nav .contain a.current {
+  color: white;
+}
+header .nav .contain span {
+  margin: 0 10px;
+}
+header .top {
+  padding: 0 30px;
+}
+header .top .right {
+  height: 52px;
+}
+header .top .right a {
+  color: #666;
+  font-size: 16px;
+  margin: 0 12px;
+  line-height: 52px;
+}
+header .top .right input {
+  height: 35px;
+  width: 210px;
+  border: 1px solid #ccc;
+}
+header .top .right button {
+  position: relative;
+  top: 8px;
+  height: 36px;
+  width: 36px;
+  border: 1px solid #ccc;
+  background: url(../images/gamesearch.png) no-repeat -3px 0;
+}
+main .contain .content {
+  overflow: hidden;
+}
+main .contain .date {
+  width: 70px;
+}
+main .contain .date .month {
+  font-size: 30px;
+  text-align: center;
+}
+main .contain .date .dot {
+  width: 11px;
+  height: 11px;
+  margin: 10px auto;
+  background-color: #aaa;
+  border-radius: 5px;
+}
+main .contain .date .line {
+  width: 4px;
+  height: 490px;
+  background-color: #aaa;
+}
+main .contain .img {
+  padding: 5px 0 0 0px ;
+}
+main .contain .img img {
+  margin: 0 12px;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+footer img {
+  margin: 0 0 120px 0;
+}

@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.bm {
+  margin: 0 auto;
+}
+.ta {
+  text-align: center;
+}
+.of {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.btm {
+  display: table-cell;
+  vertical-align: middle;
+}
+.dn {
+  display: none;
+}
+.last {
+  border-right: none !important;
+  margin-right: 0 !important;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.bx {
+  width: 1240px;
+}
+header .nav {
+  color: white;
+  height: 50px;
+  background-color: #000000;
+}
+header .nav .contain .logo {
+  font-size: 24px;
+  line-height: 50px;
+  color: #aaa;
+  font-weight: 200;
+}
+header .nav .contain span {
+  float: right;
+}
+header .nav .contain span a {
+  color: #f0f0f0;
+  font-size: 14px;
+  line-height: 50px;
+  margin-left: 25px;
+}
+header .nav .contain span a.current {
+  color: #aaa;
+}
+header .lunbo {
+  height: 657px;
+  width: 1350px;
+  margin: 0 auto;
+}
+header .lunbo .contain {
+  width: 2700px;
+  overflow: hidden;
+}
+header .lunbo .contain div {
+  width: 1350px;
+  float: left;
+  display: inline-block;
+}
+header .lunbo .contain .lb1 {
+  height: 657px;
+  background: url(../images/activity_50.png) no-repeat center top;
+}
+header .lunbo .contain .lb2 {
+  height: 657px;
+  background: url(../images/activity_53.png) no-repeat center top;
+}
+header .lunbo .contain p {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+header .lunbo .contain p i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #aaa;
+  margin: 4px;
+  border-radius: 50%;
+}
+header .lunbo .contain p i.current {
+  background-color: #666;
+}
+main {
+  padding: 40px 0;
+  background-color: #FAFAFA;
+}
+main .advance ul {
+  overflow: hidden;
+  list-style: none;
+}
+main .advance ul li {
+  float: left;
+  border-right: 1px solid #aaa;
+}
+main .advance ul li a {
+  padding: 0 40px;
+  display: block;
+  width: 412px;
+  height: 57px;
+  text-align: center;
+}
+main .advance ul li a img {
+  margin-right: 24px;
+}
+main .advance ul li a p {
+  display: inline-block;
+  font-size: 14px;
+  color: #aaa;
+  text-align: left;
+}
+main .advance ul li a p span {
+  font-size: 20px;
+  color: black;
+}
+main .copyright {
+  margin: 100px 0 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+main .copyright a {
+  line-height: 50px;
+  font-size: 14px;
+  color: #666;
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
+}

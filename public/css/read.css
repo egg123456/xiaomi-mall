@@ -1,0 +1,595 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+.last {
+  border-right: none !important;
+  margin-right: 0 !important;
+}
+.bm {
+  margin: 0 auto;
+}
+.ta {
+  text-align: center;
+}
+.of {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.btm {
+  display: table-cell;
+  vertical-align: middle;
+}
+.dn {
+  display: none;
+}
+.dib {
+  display: inline-block;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.bx {
+  width: 1200px;
+}
+header .menubar {
+  border-bottom: 1px solid #eee;
+}
+header .menubar .contain {
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+}
+header .menubar .contain .left a {
+  color: #666;
+}
+header .menubar .contain .right span {
+  padding: 0px;
+}
+header .menubar .contain .right a {
+  color: #333;
+  padding: 10px;
+}
+header .menubar .contain .right a.cart i {
+  display: inline-block;
+  width: 19px;
+  height: 11px;
+  background: url(../images/read1.png) no-repeat 0 -159px;
+}
+header .menubar .contain .right a.focus i {
+  display: inline-block;
+  width: 17px;
+  height: 11px;
+  background: url(../images/read1.png) no-repeat 0 -180px;
+}
+header .menubar .contain .right a.navigate i {
+  font-style: normal;
+  color: #aaa;
+}
+header .menubar .contain span {
+  padding: 0 10px;
+  color: #aaa;
+}
+header .topsearch {
+  margin: 30px auto 20px;
+}
+header .topsearch .logo a {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #666;
+}
+header .topsearch .logo a img {
+  vertical-align: middle;
+  border-radius: 8px;
+  margin: 0 10px 0 0;
+}
+header .topsearch .search input {
+  width: 300px;
+  height: 37px;
+  border: 2px solid #FA8533;
+  border-radius: 6px;
+  padding-right: 40px;
+}
+header .topsearch .search button {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  width: 35px;
+  height: 33px;
+  border: none;
+  background: url(../images/readsearch.png) no-repeat;
+}
+nav {
+  background-color: #FA7A20;
+}
+nav .contain {
+  width: 952px;
+  font-size: 16px;
+  line-height: 45px;
+}
+nav .contain a {
+  color: white;
+  display: inline-block;
+  height: 45px;
+  padding: 0 20px;
+}
+nav .contain a.current {
+  background-color: #FA5000;
+}
+main .contain1 {
+  padding: 8px 0 0 ;
+  border-bottom: 2px solid #FA7A20;
+}
+main .contain1 .left {
+  width: 240px;
+}
+main .contain1 .left dl {
+  overflow: hidden;
+}
+main .contain1 .left dl dt {
+  width: 240px;
+  height: 35px;
+  background-color: #E7E2DD;
+  padding: 0 20px;
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 14px;
+}
+main .contain1 .left dl dd {
+  float: left;
+  width: 120px;
+  height: 48px;
+  background-color: #F4F2EF;
+}
+main .contain1 .left dl dd.dif {
+  background-color: #e7e2dd;
+}
+main .contain1 .left dl dd.bord {
+  border-left: 1px solid #ccc;
+}
+main .contain1 .left dl dd a {
+  display: block;
+  width: 80px;
+  height: 40px;
+  margin: 8px 20px 0;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+main .contain1 .middle {
+  width: 702px;
+  margin: 0 8px;
+}
+main .contain1 .middle .recommend .title {
+  height: 45px;
+  font-size: 14px;
+  color: red;
+  line-height: 45px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc;
+}
+main .contain1 .middle .recommend .content {
+  padding: 40px 0 30px;
+}
+main .contain1 .middle .recommend .content aside {
+  width: 50%;
+  padding: 0 20px 10px;
+  border-right: 1px solid #ccc;
+}
+main .contain1 .middle .recommend .content aside .pic {
+  font-size: 12px;
+  width: 96px;
+  margin-right: 15px;
+}
+main .contain1 .middle .recommend .content aside .pic span s {
+  color: #aaa;
+}
+main .contain1 .middle .recommend .content aside .intr {
+  width: 184px;
+  font-size: 12px;
+  color: #333;
+}
+main .contain1 .middle .recommend .content aside .intr a {
+  font-size: 14px;
+  color: #333;
+}
+main .contain1 .middle .recommend .content aside .intr a.ir {
+  display: inline-block;
+  width: 95px;
+  height: 35px;
+  line-height: 35px;
+  color: white;
+  margin-top: 20px;
+  background-color: #4D87DE;
+  text-align: center;
+}
+main .contain1 .middle .recommend .content aside .intr a.te {
+  margin: 2px 0 0 ;
+}
+main .contain1 .middle .recommend .content aside .intr p.satisfy {
+  margin: 5px 0;
+  padding: 0 0 0 70px;
+  background: url(../images/satisfy.png) no-repeat 0 -255px;
+}
+main .contain1 .middle .recommend .content aside .intr p.name {
+  color: #aaa;
+  margin-bottom: 5px 0 0 0;
+}
+main .contain1 .middle .bottom {
+  height: 34px;
+  background-color: #FDF6E2;
+  font-size: 14px;
+  padding: 6px 0;
+}
+main .contain1 .middle .bottom span {
+  color: #ED6E00;
+  display: inline-block;
+  width: 94px;
+  text-align: center;
+  border-right: 1px solid #f5c3ae;
+  margin-right: 20px;
+  font-weight: 600;
+}
+main .contain1 .middle .bottom a {
+  color: #333;
+  font-size: 12px;
+}
+main .contain1 .right {
+  width: 240px;
+}
+main .contain1 .right .login {
+  background-color: #F4F2EF;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+main .contain1 .right .login h2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+}
+main .contain1 .right .login p {
+  font-size: 12px;
+  color: #aaa;
+}
+main .contain1 .right .login .but {
+  margin-top: 30px;
+}
+main .contain1 .right .login .but button {
+  width: 208px;
+  height: 32px;
+  margin-bottom: 12px;
+  border: 1px solid #E2533B;
+}
+main .contain1 .right .login .but button.free {
+  background-color: #E2533B;
+  color: white;
+}
+main .contain1 .right .login .but button.lg {
+  border-color: #ccc;
+  background-color: inherit;
+}
+main .contain1 .right .login .but button:hover {
+  text-decoration: underline;
+}
+main .contain1 .right .login .img {
+  text-align: center;
+  margin: 10px 0 0;
+}
+main .contain1 .right .login .img .content {
+  height: 190px;
+}
+main .contain1 .right .login .img a {
+  display: inline-block;
+  width: 116px;
+  font-size: 12px;
+  color: #666;
+}
+main .contain1 .right .login .img a img {
+  padding: 0 8px 10px;
+}
+main .contain1 .right .login .img ul {
+  bottom: -5px;
+  left: 80px;
+}
+main .contain1 .right .login .img ul li {
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #ccc;
+  margin: 0 2px;
+}
+main .contain1 .right .login .img ul li.current {
+  background-color: #999;
+}
+main .contain2 {
+  border-bottom: 2px solid #E4DED8;
+}
+main .contain2 .left {
+  width: 240px;
+  background-color: #F4F2EF;
+}
+main .contain2 .left .title {
+  text-align: center;
+  font-size: 14px;
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #ccc;
+}
+main .contain2 .left .title a {
+  color: #666;
+}
+main .contain2 .left .title span {
+  color: #ccc;
+  padding: 12px;
+}
+main .contain2 .left .content {
+  height: 520px;
+}
+main .contain2 .left .content ol li {
+  font-size: 12px;
+  overflow: hidden;
+  margin: 5px 0;
+}
+main .contain2 .left .content ol li div.num {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+main .contain2 .left .content ol li div.lw {
+  font-weight: 200;
+}
+main .contain2 .left .content ol li div a {
+  color: #333;
+}
+main .contain2 .left .content ol li div p {
+  color: #aaa;
+}
+main .contain2 .left .content ol li.one div {
+  height: 64px;
+  padding: 10px 0 0 10px;
+}
+main .contain2 .left .content ol li.one div.num1 {
+  padding: 10px 0 0;
+  width: 40px;
+  height: 64px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+main .contain2 .left .content ol li.one div a {
+  color: #333;
+}
+main .contain2 .left .content ol li.one div p {
+  color: #aaa;
+}
+main .contain2 .right {
+  position: absolute;
+  top: 0px;
+  left: 248px;
+  width: 952px;
+}
+main .contain2 .right .title {
+  height: 38px;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 0 20px;
+}
+main .contain2 .right .title span {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  line-height: 38px;
+}
+main .contain2 .right .title a {
+  padding: 15px 0 0 ;
+  float: right;
+  padding-right: 10px;
+  font-size: 12px;
+  color: #333;
+}
+main .contain2 .right .content {
+  overflow: hidden;
+  padding: 30px 0 20px;
+}
+main .contain2 .right .content ul {
+  font-size: 12px;
+  line-height: 18px;
+}
+main .contain2 .right .content ul li {
+  float: left;
+  width: 96px;
+  margin: 0 0 20px 35px;
+}
+main .contain2 .right .content ul li.first {
+  margin-left: 30px;
+}
+main .contain2 .right .content ul li a {
+  color: #333;
+}
+main .contain2 .right .content ul li p {
+  color: #aaa;
+  padding: 5px 0 0 0;
+}
+main .contain2 .right .content ul li p span {
+  display: inline-block;
+  width: 70px;
+  height: 14px;
+  color: #333;
+  background: url(../images/satisfy.png) no-repeat 0 -275px;
+}
+main .contain2 .right .content ul li p i {
+  font-style: normal;
+  color: black;
+  font-weight: 600;
+}
+.container .img {
+  padding: 20px 0;
+  border-bottom: 2px solid #ccc;
+}
+.container .img img {
+  margin: 0 32px;
+  height: 124px;
+}
+.container .content1 {
+  padding: 20px 0 0px;
+}
+.container .content1 .title {
+  height: 40px;
+  font-size: 14px;
+  padding: 0 20px;
+}
+.container .content1 .title span {
+  font-weight: 600;
+  line-height: 40px;
+}
+.container .content1 .title a {
+  float: right;
+  margin-top: 10px;
+  font-size: 12px;
+  color: black;
+}
+.container .content1 ul {
+  padding: 15px 25px;
+}
+.container .content1 ul li {
+  float: left;
+  width: 100px;
+  font-size: 12px;
+  color: #aaa;
+  margin-right: 31px;
+}
+.container .content1 ul li div a.info {
+  display: inline-block;
+  height: 32px;
+  line-height: 15px;
+  color: #333;
+}
+.container .content1 ul li p span {
+  font-weight: 600;
+}
+.container .content2 {
+  padding: 0 0 20px 0;
+}
+.container .content2 .title .left {
+  padding: 10px 0;
+}
+.container .content2 .title .left span {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 20px;
+}
+.container .content2 .title .left a {
+  font-size: 12px;
+  color: red;
+}
+.container .content2 .title .right {
+  padding: 0 10px 0 0;
+}
+.container .content2 .title .right ul {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.container .content2 .title .right ul li {
+  float: left;
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  margin: 0 6px 0px;
+  border-radius: 3px;
+}
+.container .content2 .title .right ul li.current {
+  background-color: #666;
+}
+.container .content2 .title .right i {
+  font-style: normal;
+  color: #aaa;
+}
+.container .content2 .book ul {
+  overflow: hidden;
+}
+.container .content2 .book ul li {
+  float: left;
+  width: 390px;
+  height: 194px;
+  padding: 20px 20px 4px 14px;
+  background-color: #F4F2EF;
+  margin: 15px 15px 0  0;
+}
+.container .content2 .book ul li .pic {
+  width: 116px;
+  text-align: center;
+  margin-right: 10px;
+}
+.container .content2 .book ul li .info {
+  width: 230px;
+  font-size: 1px;
+}
+.container .content2 .book ul li .info h5 a {
+  font-size: 15px;
+  color: #666;
+  font-weight: 600;
+}
+.container .content2 .book ul li .info .intr {
+  line-height: 18px;
+  margin: 10px 0;
+}
+.container .content2 .book ul li .info .intr a {
+  color: #aaa;
+}
+.container .content2 .book ul li .info .intr a:hover {
+  color: #333;
+}
+.container .content2 .book ul li .info .sat .star {
+  display: inline-block;
+  width: 70px;
+  height: 15px;
+  background: url(../images/satisfy.png) no-repeat 0 -235px;
+}
+.container .content2 .book ul li .info .sat .rem {
+  float: right;
+}
+.container .content2 .book ul li .info .sat .rem .rem1 i {
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  background: url(../images/readsprite.png) no-repeat -22px -160px;
+}
+.container .content2 .book ul li .info .sat .rem .rem2 i {
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  background: url(../images/readsprite.png) no-repeat -45px -160px;
+}
+.container .content2 .book ul li .info .sat .rem s {
+  text-decoration: none;
+  color: #ccc;
+  margin: 0 10px;
+}
+.container .figture {
+  border: 2px solid #ccc;
+  border-width: 2px 0 2px 0;
+}
+.container .figture img {
+  width: 224px;
+  margin: 35px 35px 20px;
+}

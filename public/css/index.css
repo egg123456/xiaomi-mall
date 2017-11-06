@@ -1,0 +1,815 @@
+* {
+  box-sizing: border-box;
+}
+.bm {
+  margin: 0 auto;
+}
+.ta {
+  text-align: center;
+}
+.of {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.btm {
+  display: table-cell;
+  vertical-align: middle;
+}
+.dn {
+  display: none;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.bx {
+  width: 1227px;
+}
+header .topbanner {
+  height: 120px;
+  background: #FFF url(../images/cms_15045784678518_fTDyM.jpg) no-repeat center top;
+}
+header .bgc {
+  background-color: #333333;
+  height: 40px;
+}
+header .bgc .topnav div {
+  float: left;
+}
+header .bgc .topnav div a {
+  color: #b0b0b0;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 40px;
+}
+header .bgc .topnav div a.cart {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #424242;
+  padding: 0 15px 0 45px;
+  background: url(../images/cart.png) no-repeat 20px 10px;
+}
+header .bgc .topnav div.right {
+  margin-left: 315px;
+}
+header .bgc .topnav div.right:before {
+  content: "\e160";
+}
+main .headbar {
+  margin: 20px 0;
+  overflow: hidden;
+}
+main .headbar div {
+  float: left;
+}
+main .headbar .sort {
+  margin-left: 170px;
+}
+main .headbar .sort a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #666;
+  line-height: 56px;
+  margin: 0 8px;
+}
+main .headbar .topsearch {
+  margin-left: 30px;
+}
+main .headbar .topsearch input {
+  position: relative;
+  top: -17px;
+  height: 50px;
+  width: 245px;
+  text-align: right;
+  font-size: 12px;
+  padding: 0 10px;
+  border: 1px solid #333333;
+}
+main .headbar .topsearch button {
+  border: 1px solid #333333;
+  border-left: none;
+  height: 50px;
+  width: 50px;
+  background: url(../images/search.png) no-repeat;
+}
+main .contain {
+  height: 464px;
+  margin: 0 0 10px 0;
+}
+main .contain .mainbanner .img i {
+  font-style: normal;
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  font-size: 40px;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.6;
+  text-align: center;
+}
+main .contain .mainbanner .img i.left {
+  left: 240px;
+  top: 200px;
+}
+main .contain .mainbanner .img i.right {
+  right: 0px;
+  top: 200px;
+}
+main .contain .mainbanner .img ul {
+  overflow: hidden;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+main .contain .mainbanner .img ul li {
+  float: left;
+  width: 9px;
+  height: 9px;
+  background-color: #666;
+  border-radius: 4px;
+  margin: 0 5px;
+  border: 1px solid #666;
+}
+main .contain .mainbanner .img ul li.current {
+  background-color: #fff;
+}
+main .contain .mainbanner .categories {
+  width: 240px;
+}
+main .contain .mainbanner .categories ul {
+  background-color: #635B56;
+  padding: 20px 0;
+}
+main .contain .mainbanner .categories ul li {
+  height: 42px;
+  line-height: 40px;
+  font-size: 14px;
+  color: white;
+  padding: 0 0 0 20px;
+}
+main .contain .mainbanner .categories ul li a {
+  display: inline-block;
+  width: 190px;
+  text-decoration: none;
+  color: white;
+}
+main .contain .mainbanner .categories ul li.current {
+  background-color: #FF6700;
+}
+main .content1 div {
+  float: left;
+  margin-right: 12px;
+}
+main .content1 .c11 {
+  width: 240px;
+  background-color: #635B56;
+}
+main .content1 .c11 ul {
+  overflow: hidden;
+  padding: 10px;
+}
+main .content1 .c11 ul li {
+  padding: 10px 0;
+  float: left;
+  width: 72px;
+  text-align: center;
+}
+main .content1 .c11 ul li a {
+  text-decoration: none;
+  color: rgba(222, 222, 222, 0.6);
+  font-size: 12px;
+}
+main .content1 .c11 ul li a i {
+  display: inline-block;
+  height: 30px;
+  width: 40px;
+  margin: 0 22px;
+}
+main .content1 .c11 ul li a i.icon1 {
+  background: url(../images/phones.png) no-repeat;
+}
+main .content1 .c11 ul li a i.icon2 {
+  background: url(../images/giftbox.png) no-repeat;
+}
+main .content1 .c11 ul li a i.icon3 {
+  background: url(../images/F.png) no-repeat;
+}
+main .content1 .c11 ul li a i.icon4 {
+  background: url(../images/micard.png) no-repeat;
+}
+main .content1 .c11 ul li a i.icon5 {
+  background: url(../images/F.png) no-repeat;
+}
+main .content1 .c11 ul li a i.icon4 {
+  background: url(../images/renew.png) no-repeat;
+}
+main .content1 .c11 ul li a i.icon6 {
+  background: url(../images/charge.png) no-repeat;
+}
+main .content1 .c12 {
+  margin-right: 0px;
+}
+main .content1 .c12 img {
+  margin-right: 10px;
+}
+main .content1 .c12 img.last {
+  margin: 0px;
+}
+.middle {
+  margin: 20px auto 40px;
+}
+.middle .sort1 .title {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 40px;
+  height: 40px;
+}
+.middle .sort1 .content {
+  margin-top: 10px;
+}
+.middle .sort1 .content ul {
+  overflow: hidden;
+}
+.middle .sort1 .content ul li {
+  float: left;
+  margin-right: 12px;
+  text-align: center;
+  width: 235px;
+  padding: 20px 0;
+  background-color: #FAFAFA;
+  border-top: 1px solid #f00;
+}
+.middle .sort1 .content ul li.last {
+  margin-right: 0px;
+}
+.middle .sort1 .content ul li img {
+  width: 105px;
+}
+.middle .sort1 .content ul li a {
+  line-height: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.middle .sort1 .content ul li a.intr2 {
+  color: #999;
+  font-size: 12px;
+}
+.middle .sort1 .content ul li a.intr3 {
+  margin: 15px 0;
+  color: #f00;
+  font-size: 14px;
+}
+.container {
+  padding: 40px 0;
+  background-color: #F5F5F5;
+}
+.container .appliance,
+.container .smart,
+.container .match,
+.container .mountings,
+.container .nearby {
+  margin: 0 auto 20px;
+}
+.container .appliance .title,
+.container .smart .title,
+.container .match .title,
+.container .mountings .title,
+.container .nearby .title {
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.container .appliance .title span,
+.container .smart .title span,
+.container .match .title span,
+.container .mountings .title span,
+.container .nearby .title span {
+  float: right;
+}
+.container .appliance .title span a,
+.container .smart .title span a,
+.container .match .title span a,
+.container .mountings .title span a,
+.container .nearby .title span a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+.container .appliance .title span a.last,
+.container .smart .title span a.last,
+.container .match .title span a.last,
+.container .mountings .title span a.last,
+.container .nearby .title span a.last {
+  margin: 0px;
+}
+.container .appliance .title span a.current,
+.container .smart .title span a.current,
+.container .match .title span a.current,
+.container .mountings .title span a.current,
+.container .nearby .title span a.current {
+  color: red;
+  border-bottom: 1px solid #f00;
+}
+.container .appliance ul li,
+.container .smart ul li,
+.container .match ul li,
+.container .mountings ul li,
+.container .nearby ul li {
+  padding: 0 0 27px 0;
+  float: left;
+  width: 235px;
+  margin: 0 12px 12px 0;
+  text-align: center;
+  background-color: #fff;
+}
+.container .appliance ul li.first,
+.container .smart ul li.first,
+.container .match ul li.first,
+.container .mountings ul li.first,
+.container .nearby ul li.first {
+  padding: 0px;
+}
+.container .appliance ul li.last,
+.container .smart ul li.last,
+.container .match ul li.last,
+.container .mountings ul li.last,
+.container .nearby ul li.last {
+  margin-right: 0px;
+}
+.container .appliance ul li.last .small1,
+.container .smart ul li.last .small1,
+.container .match ul li.last .small1,
+.container .mountings ul li.last .small1,
+.container .nearby ul li.last .small1 {
+  float: right;
+  margin: 25px;
+}
+.container .appliance ul li.last .small2,
+.container .smart ul li.last .small2,
+.container .match ul li.last .small2,
+.container .mountings ul li.last .small2,
+.container .nearby ul li.last .small2 {
+  float: right;
+  margin: 35px 25px 15px 20px;
+}
+.container .appliance ul li span,
+.container .smart ul li span,
+.container .match ul li span,
+.container .mountings ul li span,
+.container .nearby ul li span {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  width: 66px;
+  height: 22px;
+}
+.container .appliance ul li span.xinp,
+.container .smart ul li span.xinp,
+.container .match ul li span.xinp,
+.container .mountings ul li span.xinp,
+.container .nearby ul li span.xinp {
+  background-color: green;
+}
+.container .appliance ul li span.null,
+.container .smart ul li span.null,
+.container .match ul li span.null,
+.container .mountings ul li span.null,
+.container .nearby ul li span.null {
+  background-color: white;
+}
+.container .appliance ul li a,
+.container .smart ul li a,
+.container .match ul li a,
+.container .mountings ul li a,
+.container .nearby ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container .appliance ul li a.intr2,
+.container .smart ul li a.intr2,
+.container .match ul li a.intr2,
+.container .mountings ul li a.intr2,
+.container .nearby ul li a.intr2 {
+  font-size: 12px;
+  color: #aaa;
+}
+.container .appliance ul li a.intr3,
+.container .smart ul li a.intr3,
+.container .match ul li a.intr3,
+.container .mountings ul li a.intr3,
+.container .nearby ul li a.intr3 {
+  display: inline-block;
+  padding: 15px 0;
+  color: #f00;
+}
+.container .appliance ul li a.intr3 s,
+.container .smart ul li a.intr3 s,
+.container .match ul li a.intr3 s,
+.container .mountings ul li a.intr3 s,
+.container .nearby ul li a.intr3 s {
+  color: #aaa;
+}
+.container .appliance ul li a.intr4,
+.container .smart ul li a.intr4,
+.container .match ul li a.intr4,
+.container .mountings ul li a.intr4,
+.container .nearby ul li a.intr4 {
+  font-size: 13px;
+}
+.container .appliance ul li a.intr5,
+.container .smart ul li a.intr5,
+.container .match ul li a.intr5,
+.container .mountings ul li a.intr5,
+.container .nearby ul li a.intr5 {
+  display: inline-block;
+  color: red;
+  padding: 10px 20px 0 0;
+}
+.container .appliance ul li a.intr6,
+.container .smart ul li a.intr6,
+.container .match ul li a.intr6,
+.container .mountings ul li a.intr6,
+.container .nearby ul li a.intr6 {
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.container .appliance ul li a.intr7,
+.container .smart ul li a.intr7,
+.container .match ul li a.intr7,
+.container .mountings ul li a.intr7,
+.container .nearby ul li a.intr7 {
+  font-size: 12px;
+  padding-right: 40px;
+}
+.container .appliance ul li a.intr9,
+.container .smart ul li a.intr9,
+.container .match ul li a.intr9,
+.container .mountings ul li a.intr9,
+.container .nearby ul li a.intr9 {
+  font-size: 12px;
+  color: red;
+}
+.container .appliance ul li a.intr10,
+.container .smart ul li a.intr10,
+.container .match ul li a.intr10,
+.container .mountings ul li a.intr10,
+.container .nearby ul li a.intr10 {
+  display: inline-block;
+  width: 66px;
+  height: 22px;
+  padding: 15px 0;
+}
+.container .appliance ul li a.intr11,
+.container .smart ul li a.intr11,
+.container .match ul li a.intr11,
+.container .mountings ul li a.intr11,
+.container .nearby ul li a.intr11 {
+  display: inline-block;
+  width: 66px;
+  height: 22px;
+  padding: 24px 0;
+}
+.container .recommend .title {
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.container .recommend ul {
+  overflow: hidden;
+}
+.container .recommend ul li {
+  float: left;
+  width: 235px;
+  height: 310px;
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 0 20px;
+  margin: 0 12px 20px 0;
+}
+.container .recommend ul li.last {
+  margin-right: 0;
+}
+.container .recommend ul li span {
+  font-size: 14px;
+  line-height: 40px;
+}
+.container .recommend ul li span.remark {
+  color: #aaa;
+}
+.container .recommend ul li a {
+  color: red;
+  font-size: 14px;
+  text-decoration: none;
+}
+.container .remarkproduct {
+  margin: 0 auto 20px;
+}
+.container .remarkproduct .title {
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.container .remarkproduct ul {
+  overflow: hidden;
+}
+.container .remarkproduct ul li {
+  float: left;
+  width: 297px;
+  height: 415px;
+  background-color: #fff;
+  margin: 0 12px 0 0;
+}
+.container .remarkproduct ul li.last {
+  margin-right: 0;
+}
+.container .remarkproduct ul li p {
+  height: 57px;
+  overflow: hidden;
+  margin: 25px;
+  font-size: 14px;
+}
+.container .remarkproduct ul li span {
+  font-size: 12px;
+  color: #999;
+  padding: 0 0 0 25px;
+}
+.container .remarkproduct ul li span.price {
+  font-size: 14px;
+  color: black;
+}
+.container .remarkproduct ul li span.price i {
+  font-style: normal;
+  color: #bababa;
+}
+.container .remarkproduct ul li span.price a {
+  text-decoration: none;
+  color: red;
+}
+.container .content {
+  margin: 0 auto 20px;
+}
+.container .content .title {
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.container .content ul {
+  overflow: hidden;
+}
+.container .content ul li {
+  float: left;
+  width: 297px;
+  height: 415px;
+  background-color: #fff;
+  margin: 0 12px 0 0;
+  text-align: center;
+  padding: 40px 0 0;
+}
+.container .content ul li.last {
+  margin-right: 0;
+}
+.container .content ul li a {
+  display: inline-block;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: red;
+}
+.container .content ul li a.price {
+  color: #aaa;
+  padding-top: 10px;
+}
+.container .content ul li a.tp2 {
+  color: green;
+}
+.container .content ul li span {
+  font-size: 20px;
+}
+.container .content ul li p {
+  margin: 0 auto 10px;
+  line-height: 20px;
+  width: 210px;
+  height: 30px;
+  font-size: 12px;
+  color: #aaa;
+}
+.container .content ul li p.dot {
+  position: absolute;
+  width: 297px;
+  bottom: 30px;
+}
+.container .content ul li p.dot i {
+  box-sizing: content-box;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #666;
+  margin: 0 15px;
+  border: 2px solid #fff;
+}
+.container .content ul li p.dot i.current {
+  border: 2px solid #FF6700;
+  background-color: #fff;
+}
+.container .content ul li div {
+  width: 20px;
+  height: 50px;
+  background-color: #dedede;
+  padding: 10px 0;
+  color: white;
+  position: absolute;
+  top: 45%;
+}
+.container .content ul li div.rarr {
+  right: 0px;
+}
+.container .video .title {
+  line-height: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: 200;
+}
+.container .video .title span {
+  float: right;
+  font-size: 16px;
+}
+.container .video .title span i {
+  font-style: normal;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  padding-left: 4px;
+  margin: 0 0 0 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #aaa;
+  color: white;
+}
+.container .video ul {
+  margin: 10px 0 20px;
+  overflow: hidden;
+}
+.container .video ul li {
+  background-color: #fff;
+  width: 297px;
+  height: 280px;
+  float: left;
+  text-align: center;
+  margin-right: 12px;
+}
+.container .video ul li.last {
+  margin-right: 0;
+}
+.container .video ul li p {
+  padding: 25px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container .video ul li p span {
+  font-size: 12px;
+  color: #aaa;
+}
+.container .video ul li div {
+  position: absolute;
+  top: 145px;
+  left: 20px;
+  width: 40px;
+  height: 26px;
+  background-color: #666;
+  padding: 5px 10px 5px 15px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+.container .video ul li div span {
+  display: inline-block;
+  background: url(../images/start.png) no-repeat;
+  width: 20px;
+  height: 20px;
+}
+footer {
+  background-color: #fff;
+}
+footer .serv {
+  height: 80px;
+  padding: 25px 0;
+}
+footer .serv ul li {
+  float: left;
+  width: 245px;
+  height: 20px;
+  text-align: center;
+  border-right: 1px solid #aaa;
+  margin: 5px 0;
+}
+footer .serv ul li.last {
+  border-right: none;
+}
+footer .serv ul li a {
+  position: relative;
+  top: -10px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+footer .serv ul li a img {
+  position: relative;
+  top: 10px;
+}
+footer .cont {
+  margin: 20px auto;
+  padding: 0 0 20px;
+}
+footer .cont ul {
+  width: 975px;
+  border-right: 1px solid #aaa;
+}
+footer .cont ul li {
+  float: left;
+  width: 162px;
+}
+footer .cont ul li dl dt {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+footer .cont ul li dl dd {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+footer .cont .relation p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+footer .cont .relation p span {
+  font-size: 22px;
+  color: red;
+}
+footer .cont .relation a {
+  margin: 20px 0 0 0 ;
+  text-decoration: none;
+  color: red;
+  font-size: 12px;
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  border: 1px solid red;
+}
+footer .cont .relation a i {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(../images/message.png) no-repeat;
+}
+footer .copyright {
+  background-color: #F5F5F5;
+  margin: 20px 0  0;
+  padding: 20px 0;
+}
+footer .copyright .contain {
+  margin: 20px auto 0 ;
+  overflow: hidden;
+}
+footer .copyright .contain p {
+  width: 750px;
+  font-size: 12px;
+  color: #aaa;
+}
+footer .copyright .contain p a {
+  text-decoration: none;
+  color: black;
+}
+footer .copyright .slogan {
+  margin: 25px 0;
+  text-align: center;
+}
